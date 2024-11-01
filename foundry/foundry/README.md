@@ -4,14 +4,6 @@ This folder demonstrates a basic use case for Hashi using Foundry. For more deta
 
 # Develoment
 
-## Contracts
-
-The `Sender` and `Receiver` contracts demonstrate how to dispatch messages using Hashi.
-
-The `Sender `contract on the source chain interacts with the `Yaho` contract, specifying the oracles (reporters and adapters) required for message dispatching.
-On the target chain, the `Receiver` contract updates the message once the threshold is met by the adapters.
-For a detailed example using Sepolia as the source chain and Chiado as the target chain, see `contracts/SepoliaSender.sol` and `contracts/ChiadoReceiver.sol`.
-
 ### Build
 
 ```shell
